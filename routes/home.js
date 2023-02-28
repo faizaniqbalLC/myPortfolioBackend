@@ -28,7 +28,7 @@ router.post("/user", async (req, res) => {
       html: `<h1>User Name : ${name}<h1>    <h2>User Email: ${email}</h2>  <h3>User Message>: ${message}</h3>`,
     };
     // await sendMail(userMessage);
-    transporter.sendMail(mailOptions, (err) => {
+    await transporter.sendMail(mailOptions, (err) => {
       console.log(err);
     });
 
