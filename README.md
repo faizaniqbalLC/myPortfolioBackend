@@ -1,8 +1,7 @@
-# node-express-vercel
+# backend-of-myPortfolio
 Hosting express node project on vercel
 
-### Video
-> https://youtu.be/vCuf62T2snY
+
 
 ### Deployed on
-> https://node-express-vercel-rose.vercel.app/home
+https://portfolio-three-sandy-48.vercel.app
