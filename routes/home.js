@@ -22,7 +22,7 @@ router.post("/user", async (req, res) => {
 
     let mailOptions = {
       from: "portfolio@complete.com",
-      to: "se.fizaniqbal@gmail.com",
+      to: email,
       subject: "User Message",
       template: "email",
       html: `<h1>User Name : ${name}<h1>    <h2>User Email: ${email}</h2>  <h3>User Message>: ${message}</h3>`,
