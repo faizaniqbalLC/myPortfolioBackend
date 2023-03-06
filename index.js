@@ -18,7 +18,9 @@ app.use("/contact", home);
 // connection
 const port = process.env.PORT || 9001;
 mongoose
-  .connect(process.env.MONGO_URL)
+  .connect(
+    "mongodb+srv://fizan-iqbal:fiz---54321@cluster0.lispju5.mongodb.net/userData"
+  )
   .then(() => {
     console.log("connected");
     app.listen(port, () => console.log(`Listening to port ${port}`));
