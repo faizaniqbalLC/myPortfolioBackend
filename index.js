@@ -1,5 +1,5 @@
 // Import packages
-const express = require("express"); 
+const express = require("express");
 const cors = require("cors");
 const home = require("./routes/home");
 const { default: mongoose } = require("mongoose");
@@ -19,7 +19,7 @@ app.use("/contact", home);
 const port = process.env.PORT || 9001;
 mongoose
   .connect(
-    "mongodb+srv://fizan-iqbal:fiz---54321@cluster0.lispju5.mongodb.net/userData"
+    "mongodb+srv://sefizaniqbal2:fiz-54321@clusterof2023.ukkabpy.mongodb.net/userMessages"
   )
   .then(() => {
     console.log("connected");
